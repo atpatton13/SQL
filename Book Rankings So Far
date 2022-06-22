@@ -1,4 +1,10 @@
 CREATE TABLE Books (id INTEGER, name TEXT, rating INTEGER);
 INSERT INTO Books Values (1, "Ray Bearer", 5);
-Insert Into books values (2, "Dawn", 3); 
-insert into books values (3, "The Shining", 8);
+INSERT INTO Books Values (2, "Dawn", 3); 
+INSERT INTO Books Values (3, "The Shining", 8);
+
+SELECT * FROM Books
+ORDER BY rating DESC;
+
+SELECT * FROM Books
+WHERE rating > 3;
